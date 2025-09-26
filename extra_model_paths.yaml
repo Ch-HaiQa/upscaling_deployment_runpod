@@ -10,4 +10,5 @@ runpod_worker_comfy:
   upscale_models: models/upscale_models/
   vae: models/vae/
   diffusion_models: models/diffusion_models/
-  llava: models/LLavacheckpoints 
+  llava: models/LLavacheckpoints/
+  facerestore_models: models/facerestore_models/
