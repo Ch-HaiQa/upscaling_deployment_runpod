@@ -39,11 +39,11 @@ RUN comfy-node-install \
 #    git clone https://github.com/CodeAcme-io/loadVideoFromURL.git /comfyui/custom_nodes/loadVideoFromURL
 
 # Install dependencies using absolute paths
-#RUN pip install -r /comfyui/custom_nodes/ComfyUI-Manager/requirements.txt
-#RUN pip install -r /comfyui/custom_nodes/rgthree-comfy/requirements.txt
-#RUN pip install -r /comfyui/custom_nodes/ComfyUI-Easy-Use/requirements.txt
-#RUN pip install -r /comfyui/custom_nodes/ComfyUI-VideoHelperSuite/requirements.txt
-#RUN pip install -r /comfyui/custom_nodes/facerestore_cf/requirements.txt
+RUN pip install -r /comfyui/custom_nodes/ComfyUI-Manager/requirements.txt
+RUN pip install -r /comfyui/custom_nodes/rgthree-comfy/requirements.txt
+RUN pip install -r /comfyui/custom_nodes/ComfyUI-Easy-Use/requirements.txt
+RUN pip install -r /comfyui/custom_nodes/ComfyUI-VideoHelperSuite/requirements.txt
+RUN pip install -r /comfyui/custom_nodes/facerestore_cf/requirements.txt
 
 # for updating the comfyui with latest github commit
 RUN ls /comfyui
